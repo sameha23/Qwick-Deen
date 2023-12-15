@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* customs css */
+
+.primary-color {
+  color: #35a050;
+}
+
+.secondary-color {
+  color: #0e1b51;
+}
+
+.yellow-color {
+  color: #f2c555;
+}
+
+.text-color {
+  color: #6e7697;
+}
+.section-header {
+  color: #0e1b51;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+
+@media (max-width: 768px) {
+  .section-header {
+    font-size: 16px;
+  }
+}
+
+
+.my-scroll::-webkit-scrollbar {
+  width: 14px;
+  height: 16px;
+}
+
+/* Track */
+.my-scroll::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #edf2f7;
+}
+
+/* Handle */
+.my-scroll::-webkit-scrollbar-thumb {
+  background: #a9a4a4;
+  border-radius: 100vh;
+  border: 3px solid #edf2f7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}

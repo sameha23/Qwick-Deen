@@ -1,0 +1,13 @@
+/* Import your font using @font-face */
+@font-face {
+    font-family: 'Hidayatullah';
+    src: url('/fonts/Hidayatullah/hidayatullah_DEMO.ttf') format('truetype');
+    /* Add additional font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font to specific elements */
+.heading {
+    font-family: 'Hidayatullah', sans-serif;
+}
